@@ -19,6 +19,10 @@ class pagesController extends Controller
         return view('contact');
     }
     
+    public function getSubmitdelet(){
+        return redirect('/');
+    }
+    
     public function getLogout(){
         Auth::logout();
         return redirect('/');
