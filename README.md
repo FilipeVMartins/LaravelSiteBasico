@@ -1,27 +1,12 @@
-INTRO
+#INTRO
 
 Website feito com Laravel 6.7, contendo um sistema simples de recebimento de mensagens enviadas por visitantes através de formulário com post method e visualização e exclusão das mesmas com autenticação de login pelo administrador do site.
-        
-    
-    
-  
-    
-   
-      
-       
-
-ESTRUTURA
 
 
+#ESTRUTURA (MVC)
 
 
-&nbsp
-
-
-
-
-
-MODELS (utilizado 1 DB MySQL e 2 tabelas).
+###MODELS (utilizado 1 DB MySQL e 2 tabelas).
 
 * app\User - acessa a tabela 'users' contendo as colunas padrões do laravel ui authentication.
 
@@ -34,10 +19,7 @@ MODELS (utilizado 1 DB MySQL e 2 tabelas).
   * CreateMessagesTable - migration para criação da tabela 'messages' que armazenará as mensagens recebidas dos visitantes.
   
 
-
-&nbsp
-
-VIEWS
+###VIEWS
 
 * resources\views\auth - pasta contendo os templates padrões do laravel ui authentication.
 
@@ -63,13 +45,8 @@ VIEWS
 
   * resources\views\messages - template da view onde o admnistrador poderá visualizar as mensagens recebidas pela aplicação e excluí-las, autenticação necessária para acesso.
   
-
-&nbsp
-  
-    
-      
         
-CONTROLLERS
+###CONTROLLERS
 
 * app\Http\Controllers\Auth - Pasta contendo os controllers padrões do laravel ui authentication.
 
@@ -77,6 +54,5 @@ CONTROLLERS
 
 * app\Http\Controllers\pagesController - Controller responsável pelos métodos de controle das rotas.
 
-|
 
-ROUTES (usadas apenas 'routes\web', no próprio arquivo encontram-se descrições para cada uma)
+###ROUTES (usadas apenas 'routes\web', no próprio arquivo encontram-se descrições para cada uma)
