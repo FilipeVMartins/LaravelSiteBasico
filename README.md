@@ -3,27 +3,26 @@ INTRO
 Website feito com Laravel 6.7, contendo um sistema simples de recebimento de mensagens enviadas por visitantes através de formulário com post method e visualização e exclusão das mesmas com autenticação de login pelo administrador do site.
 
 
+
 ESTRUTURA
 
-|
+
 
 MODELS (utilizado 1 DB MySQL e 2 tabelas).
 
+&nbsp
+
+* app\User - acessa a tabela 'users' contendo as colunas padrões do laravel ui authentication.
+
+* app\Message - acessa a tabela 'messages' contendo: chave primária, nome, email, mensagem enviada, data de criação e data de modificação.
+
+* database\migrations (duas utilizadas)
+
     |
-    
-    app\User - acessa a tabela 'users' contendo as colunas padrões do laravel ui authentication.
-    
-    app\Message - acessa a tabela 'messages' contendo: chave primária, nome, email, mensagem enviada, data de criação e data de modificação.
-    
-    |
-    
-    database\migrations (duas utilizadas)
-    
-        |
-        
-        CreateUsersTable - migration padrão do laravel authentication para criar a tabela 'users'.
-        
-        CreateMessagesTable - migration para criação da tabela 'messages' que armazenará as mensagens recebidas dos visitantes.
+
+    CreateUsersTable - migration padrão do laravel authentication para criar a tabela 'users'.
+
+    CreateMessagesTable - migration para criação da tabela 'messages' que armazenará as mensagens recebidas dos visitantes.
         
 |
 
@@ -32,17 +31,17 @@ VIEWS
     |
     
     resources\views\auth - pasta contendo os templates padrões do laravel ui authentication.
-    
+
     resources\views\inc - pasta contendo os layouts de inclusões condicionais a serem feitas no layout principal.
-    
+
         |
-        
+
         inc\messages - layout das mensagens de confirmações/erros/alertas enviadas aos usuários do site (adm e visitantes).
-        
+
         inc\navbar - layout da barra de navegação para ser exibida em todas as views.
-        
+
         inc\showcase - layout do showcase para ser exibido na view 'home'.
-        
+
         inc\sidebar - layout da sidebar de exemplo.
         
     |
