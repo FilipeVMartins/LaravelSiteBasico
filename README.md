@@ -6,15 +6,15 @@ Website feito com Laravel 6.7, contendo um sistema simples de recebimento de men
 # ESTRUTURA (MVC)
 
 
-## MODELS (utilizado 1 DB MySQL e 2 tabelas).
+## MODELS (1 DB MySQL e 2 tabelas).
 
-* app\User - acessa a tabela 'users' contendo as colunas padrões do laravel ui authentication.
+* app\User - acessa a tabela 'users' contendo as colunas padrões do laravel para registro de usuários.
 
 * app\Message - acessa a tabela 'messages' contendo: chave primária, nome, email, mensagem enviada, data de criação e data de modificação.
 
 * database\migrations (duas utilizadas)
 
-  * CreateUsersTable - migration padrão do laravel authentication para criar a tabela 'users'.
+  * CreateUsersTable - migration padrão do laravel para criar a tabela 'users'.
 
   * CreateMessagesTable - migration para criação da tabela 'messages' que armazenará as mensagens recebidas dos visitantes.
   
@@ -55,4 +55,5 @@ Website feito com Laravel 6.7, contendo um sistema simples de recebimento de men
 * app\Http\Controllers\pagesController - Controller responsável pelos métodos de controle das rotas.
 
 
-## ROUTES (usadas apenas 'routes\web', no próprio arquivo encontram-se descrições para cada uma)
+## ROUTES
+* Utilizadas apenas 'routes\web', no próprio arquivo encontram-se descrições para cada uma
