@@ -2,15 +2,17 @@ INTRO
 
 Website feito com Laravel 6.7, contendo um sistema simples de recebimento de mensagens enviadas por visitantes através de formulário com post method e visualização e exclusão das mesmas com autenticação de login pelo administrador do site.
 
-
+    
+    
+    
+    
 
 ESTRUTURA
 
 
+&nbsp
 
 MODELS (utilizado 1 DB MySQL e 2 tabelas).
-
-&nbsp
 
 * app\User - acessa a tabela 'users' contendo as colunas padrões do laravel ui authentication.
 
@@ -18,51 +20,50 @@ MODELS (utilizado 1 DB MySQL e 2 tabelas).
 
 * database\migrations (duas utilizadas)
 
-    |
+  * CreateUsersTable - migration padrão do laravel authentication para criar a tabela 'users'.
 
-    CreateUsersTable - migration padrão do laravel authentication para criar a tabela 'users'.
+  * CreateMessagesTable - migration para criação da tabela 'messages' que armazenará as mensagens recebidas dos visitantes.
+  
 
-    CreateMessagesTable - migration para criação da tabela 'messages' que armazenará as mensagens recebidas dos visitantes.
-        
-|
+
+&nbsp
 
 VIEWS
 
-    |
-    
-    resources\views\auth - pasta contendo os templates padrões do laravel ui authentication.
+* resources\views\auth - pasta contendo os templates padrões do laravel ui authentication.
 
-    resources\views\inc - pasta contendo os layouts de inclusões condicionais a serem feitas no layout principal.
+* resources\views\inc - pasta contendo os layouts de inclusões condicionais a serem feitas no layout principal.
 
-        |
-
-        inc\messages - layout das mensagens de confirmações/erros/alertas enviadas aos usuários do site (adm e visitantes).
-
-        inc\navbar - layout da barra de navegação para ser exibida em todas as views.
-
-        inc\showcase - layout do showcase para ser exibido na view 'home'.
-
-        inc\sidebar - layout da sidebar de exemplo.
-        
-    |
-    
-    resources\views\layouts (layouts principais 1)
-    
-        |
-        
-        app - layout principal de todo o domínio da aplicação.
-        
-    |
-    
-    resources\views\about - template da view onde será apresentado melhor sobre.
-    
-    resources\views\contact - template da view onde o visitante poderá deixar uma mensagem para o admnistrador.
-    
-    resources\views\home - template da view inicial do domínio da aplicação.
-    
-    resources\views\messages - template da view onde o admnistrador poderá visualizar as mensagens recebidas pela aplicação e excluí-las, autenticação necessária para acesso.
-    
 |
+
+  * inc\messages - layout das mensagens de confirmações/erros/alertas enviadas aos usuários do site (adm e visitantes).
+
+  * inc\navbar - layout da barra de navegação para ser exibida em todas as views.
+
+  * inc\showcase - layout do showcase para ser exibido na view 'home'.
+
+  * inc\sidebar - layout da sidebar de exemplo.
+
+|
+
+  * resources\views\layouts (layouts principais 1)
+
+    |
+
+    app - layout principal de todo o domínio da aplicação.
+
+|
+
+  * resources\views\about - template da view onde será apresentado melhor sobre.
+
+  * resources\views\contact - template da view onde o visitante poderá deixar uma mensagem para o admnistrador.
+
+  * resources\views\home - template da view inicial do domínio da aplicação.
+
+  * resources\views\messages - template da view onde o admnistrador poderá visualizar as mensagens recebidas pela aplicação e excluí-las, autenticação necessária para acesso.
+  
+
+&nbsp
 
 CONTROLLERS
 
