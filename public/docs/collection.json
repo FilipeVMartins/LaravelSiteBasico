@@ -1,0 +1,477 @@
+{
+    "variables": [],
+    "info": {
+        "name": "Laravel API",
+        "_postman_id": "aa9c4df6-eead-4a8e-98a0-acfdb735b7e4",
+        "description": "",
+        "schema": "https:\/\/schema.getpostman.com\/json\/collection\/v2.0.0\/collection.json"
+    },
+    "item": [
+        {
+            "name": "general",
+            "description": "",
+            "item": [
+                {
+                    "name": "http:\/\/localhost",
+                    "request": {
+                        "url": "http:\/\/localhost",
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "http:\/\/localhost\/about",
+                    "request": {
+                        "url": "http:\/\/localhost\/about",
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "http:\/\/localhost\/contact",
+                    "request": {
+                        "url": "http:\/\/localhost\/contact",
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "http:\/\/localhost\/messages",
+                    "request": {
+                        "url": "http:\/\/localhost\/messages",
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "http:\/\/localhost\/contact\/submit",
+                    "request": {
+                        "url": "http:\/\/localhost\/contact\/submit",
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "http:\/\/localhost\/logout",
+                    "request": {
+                        "url": "http:\/\/localhost\/logout",
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Show the application's login form.",
+                    "request": {
+                        "url": "http:\/\/localhost\/login",
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Handle a login request to the application.",
+                    "request": {
+                        "url": "http:\/\/localhost\/login",
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Log the user out of the application.",
+                    "request": {
+                        "url": "http:\/\/localhost\/logout",
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Show the application registration form.",
+                    "request": {
+                        "url": "http:\/\/localhost\/register",
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Handle a registration request for the application.",
+                    "request": {
+                        "url": "http:\/\/localhost\/register",
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Display the form to request a password reset link.",
+                    "request": {
+                        "url": "http:\/\/localhost\/password\/reset",
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Send a reset link to the given user.",
+                    "request": {
+                        "url": "http:\/\/localhost\/password\/email",
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Display the password reset view for the given token.",
+                    "request": {
+                        "url": "http:\/\/localhost\/password\/reset\/{token}",
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "If no token is present, display the link request form.",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Reset the given user's password.",
+                    "request": {
+                        "url": "http:\/\/localhost\/password\/reset",
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Display the password confirmation view.",
+                    "request": {
+                        "url": "http:\/\/localhost\/password\/confirm",
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Confirm the given user's password.",
+                    "request": {
+                        "url": "http:\/\/localhost\/password\/confirm",
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Show the application dashboard.",
+                    "request": {
+                        "url": "http:\/\/localhost\/home",
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "http:\/\/localhost\/messages\/submitdelet",
+                    "request": {
+                        "url": "http:\/\/localhost\/messages\/submitdelet",
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "http:\/\/localhost\/messages\/submitdelet",
+                    "request": {
+                        "url": "http:\/\/localhost\/messages\/submitdelet",
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                }
+            ]
+        }
+    ]
+}
