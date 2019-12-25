@@ -1,16 +1,25 @@
 INTRO
 
 Website feito com Laravel 6.7, contendo um sistema simples de recebimento de mensagens enviadas por visitantes através de formulário com post method e visualização e exclusão das mesmas com autenticação de login pelo administrador do site.
-
+        
     
     
+  
     
-    
+   
+      
+       
 
 ESTRUTURA
 
 
+
+
 &nbsp
+
+
+
+
 
 MODELS (utilizado 1 DB MySQL e 2 tabelas).
 
@@ -34,8 +43,6 @@ VIEWS
 
 * resources\views\inc - pasta contendo os layouts de inclusões condicionais a serem feitas no layout principal.
 
-|
-
   * inc\messages - layout das mensagens de confirmações/erros/alertas enviadas aos usuários do site (adm e visitantes).
 
   * inc\navbar - layout da barra de navegação para ser exibida em todas as views.
@@ -44,15 +51,9 @@ VIEWS
 
   * inc\sidebar - layout da sidebar de exemplo.
 
-|
-
   * resources\views\layouts (layouts principais 1)
 
-    |
-
-    app - layout principal de todo o domínio da aplicação.
-
-|
+    * app - layout principal de todo o domínio da aplicação.
 
   * resources\views\about - template da view onde será apresentado melhor sobre.
 
@@ -64,17 +65,18 @@ VIEWS
   
 
 &nbsp
-
+  
+    
+      
+        
 CONTROLLERS
 
-    |
-    
-    app\Http\Controllers\Auth - Pasta contendo os controllers padrões do laravel ui authentication.
-    
-    app\Http\Controllers\MessagesControler - Controller responsável pelos métodos de requisição de inserção e exclusão de registros na tabela 'messages' ao model 'Message', também é responsável pelo método que retorna à rota da view 'messages' todos os registros contidos na tabela 'messages' do model 'Message'.
-    
-    app\Http\Controllers\pagesController - Controller responsável pelos métodos de controle das rotas.
-    
+* app\Http\Controllers\Auth - Pasta contendo os controllers padrões do laravel ui authentication.
+
+* app\Http\Controllers\MessagesControler - Controller responsável pelos métodos de requisição de inserção e exclusão de registros na tabela 'messages' ao model 'Message', também é responsável pelo método que retorna à rota da view 'messages' todos os registros contidos na tabela 'messages' do model 'Message'.
+
+* app\Http\Controllers\pagesController - Controller responsável pelos métodos de controle das rotas.
+
 |
 
 ROUTES (usadas apenas 'routes\web', no próprio arquivo encontram-se descrições para cada uma)
